@@ -197,14 +197,6 @@ NSString *stringForBool(BOOL bValue);
  */
 UInt32 strVersionToIntVersion(NSString *strVersion);
 
-#pragma mark - network
-/*
- *  @brief: 判断网络是否可用
- */
-FOUNDATION_EXPORT BOOL isNetworkAvailabel();
-BOOL addNetworkMonitor(id observer, SEL aSelector);
-void removeNetworkMonitor(id observer);
-
 #pragma mark - Authorization
 /*
  *  @bief:添加推送通知,使得系统弹出“发送推送通知”确认框
